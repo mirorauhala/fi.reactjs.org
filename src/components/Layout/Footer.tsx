@@ -326,18 +326,18 @@ export function Footer({hideSurvey = false, hideBorder = false}: FooterProps) {
             </div>
             <div className="flex flex-col">
               <FooterLink href="/learn" isHeader={true}>
-                Learn React
+                Opettele Reactia
               </FooterLink>
-              <FooterLink href="/learn/">Quick Start</FooterLink>
-              <FooterLink href="/learn/installation">Installation</FooterLink>
+              <FooterLink href="/learn/">Pika-aloitus</FooterLink>
+              <FooterLink href="/learn/installation">Asennus</FooterLink>
               <FooterLink href="/learn/describing-the-ui">
-                Describing the UI
+                Käyttöliittymän kuvaus
               </FooterLink>
               <FooterLink href="/learn/adding-interactivity">
-                Adding Interactivity
+              Interaktiivisuuden lisääminen
               </FooterLink>
               <FooterLink href="/learn/managing-state">
-                Managing State
+                Tilan hallinta
               </FooterLink>
               <FooterLink href="/learn/escape-hatches">
                 Escape Hatches
@@ -345,55 +345,55 @@ export function Footer({hideSurvey = false, hideBorder = false}: FooterProps) {
             </div>
             <div className="flex flex-col">
               <FooterLink href="/reference/react" isHeader={true}>
-                API Reference
+                API viite
               </FooterLink>
-              <FooterLink href="/reference/react">React APIs</FooterLink>
+              <FooterLink href="/reference/react">React API:t</FooterLink>
               <FooterLink href="/reference/react-dom">
-                React DOM APIs
+                React DOM API:t
               </FooterLink>
             </div>
             <div className="md:col-start-2 xl:col-start-4 flex flex-col">
               <FooterLink href="/community" isHeader={true}>
-                Community
+                Yhteisö
               </FooterLink>
               <FooterLink href="https://github.com/facebook/react/blob/main/CODE_OF_CONDUCT.md">
                 Code of Conduct
               </FooterLink>
-              <FooterLink href="/community/team">Meet the Team</FooterLink>
+              <FooterLink href="/community/team">Tapaa tiimi</FooterLink>
               <FooterLink href="/community/docs-contributors">
-                Docs Contributors
+                Oppaan avustajat
               </FooterLink>
               <FooterLink href="/community/acknowledgements">
-                Acknowledgements
+                Kiitokset
               </FooterLink>
             </div>
             <div className="flex flex-col">
-              <FooterLink isHeader={true}>More</FooterLink>
-              <FooterLink href="/blog">Blog</FooterLink>
+              <FooterLink isHeader={true}>Lisää</FooterLink>
+              <FooterLink href="/blog">Blogi</FooterLink>
               <FooterLink href="https://reactnative.dev/">
                 React Native
               </FooterLink>
               <FooterLink href="https://opensource.facebook.com/legal/privacy">
-                Privacy
+                Yksityisyys
               </FooterLink>
               <FooterLink href="https://opensource.fb.com/legal/terms/">
-                Terms
+                Ehdot
               </FooterLink>
               <div className="flex flex-row mt-8 gap-x-2">
                 <ExternalLink
-                  aria-label="React on Facebook"
+                  aria-label="React Facebookissa"
                   href="https://www.facebook.com/react"
                   className={socialLinkClasses}>
                   <IconFacebookCircle />
                 </ExternalLink>
                 <ExternalLink
-                  aria-label="React on Twitter"
+                  aria-label="React Twitterissä"
                   href="https://twitter.com/reactjs"
                   className={socialLinkClasses}>
                   <IconTwitter />
                 </ExternalLink>
                 <ExternalLink
-                  aria-label="React on Github"
+                  aria-label="React Githubissa"
                   href="https://github.com/facebook/react"
                   className={socialLinkClasses}>
                   <IconGitHub />
