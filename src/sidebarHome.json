@@ -4,30 +4,30 @@
   "routes": [
     {
       "hasSectionHeader": true,
-      "sectionHeader": "GET STARTED"
+      "sectionHeader": "ALOITUS"
     },
     {
-      "title": "Installation",
+      "title": "Asennus",
       "path": "/learn/installation"
     },
     {
-      "title": "Quick Start",
+      "title": "Pika-aloitus",
       "path": "/learn"
     },
     {
       "hasSectionHeader": true,
-      "sectionHeader": "LEARN REACT"
+      "sectionHeader": "OPETTELE REACTIA"
     },
     {
-      "title": "Describing the UI",
+      "title": "Käyttöliittymän kuvaus",
       "path": "/learn/describing-the-ui"
     },
     {
-      "title": "Adding Interactivity",
+      "title": "Interaktiivisuuden lisääminen",
       "path": "/learn/adding-interactivity"
     },
     {
-      "title": "Managing State",
+      "title": "Tilan hallinta",
       "path": "/learn/managing-state"
     },
     {
@@ -39,19 +39,19 @@
       "sectionHeader": "REACT API"
     },
     {
-      "title": "Components",
+      "title": "Komponentit",
       "path": "/reference/react/components"
     },
     {
-      "title": "Hooks",
+      "title": "Hookit",
       "path": "/reference/react"
     },
     {
-      "title": "APIs",
+      "title": "API:t",
       "path": "/reference/react/apis"
     },
     {
-      "title": "Legacy APIs",
+      "title": "Vanhat rajapinnat",
       "path": "/reference/react/legacy"
     },
     {
@@ -59,35 +59,35 @@
       "sectionHeader": "REACT DOM API"
     },
     {
-      "title": "Components",
+      "title": "Komponentit",
       "path": "/reference/react-dom/components"
     },
     {
-      "title": "APIs",
+      "title": "API:t",
       "path": "/reference/react-dom"
     },
     {
-      "title": "Client APIs",
+      "title": "Asiakasrajapinnat",
       "path": "/reference/react-dom/client"
     },
     {
-      "title": "Server APIs",
+      "title": "Palvelinrajapinnat",
       "path": "/reference/react-dom/server"
     },
     {
       "hasSectionHeader": true,
-      "sectionHeader": "GET INVOLVED"
+      "sectionHeader": "OLE OSANA"
     },
     {
-      "title": "React Community",
+      "title": "React Yhteisö",
       "path": "/community"
     },
     {
       "hasSectionHeader": true,
-      "sectionHeader": "STAY INFORMED"
+      "sectionHeader": "PYSY KUULOLLA"
     },
     {
-      "title": "React Blog",
+      "title": "React Blogi",
       "path": "/blog"
     }
   ]

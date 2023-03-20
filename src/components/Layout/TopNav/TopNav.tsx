@@ -201,7 +201,7 @@ export default function TopNav({
             <div className="3xl:flex-1 flex flex-row ">
               <button
                 type="button"
-                aria-label="Menu"
+                aria-label="Valikko"
                 onClick={() => setIsOpen(!isOpen)}
                 className={cn(
                   'active:scale-95 transition-transform flex lg:hidden w-12 h-12 rounded-full items-center justify-center hover:bg-primary/5 hover:dark:bg-primary-dark/5 outline-link',
@@ -231,18 +231,18 @@ export default function TopNav({
             <div className="text-base justify-center items-center gap-1.5 flex 3xl:flex-1 flex-row 3xl:justify-end">
               <div className="mx-2.5 gap-1.5 hidden lg:flex">
                 <NavItem isActive={section === 'learn'} url="/learn">
-                  Learn
+                  Opettele
                 </NavItem>
                 <NavItem
                   isActive={section === 'reference'}
                   url="/reference/react">
-                  Reference
+                  Viite
                 </NavItem>
                 <NavItem isActive={section === 'community'} url="/community">
-                  Community
+                  Yhteisö
                 </NavItem>
                 <NavItem isActive={section === 'blog'} url="/blog">
-                  Blog
+                  Blogi
                 </NavItem>
               </div>
               <div className="flex w-full md:hidden"></div>
@@ -253,7 +253,7 @@ export default function TopNav({
                 <div className="flex dark:hidden">
                   <button
                     type="button"
-                    aria-label="Use Dark Mode"
+                    aria-label="Käytä tummaa tilaa"
                     onClick={() => {
                       window.__setPreferredTheme('dark');
                     }}
@@ -264,7 +264,7 @@ export default function TopNav({
                 <div className="hidden dark:flex">
                   <button
                     type="button"
-                    aria-label="Use Light Mode"
+                    aria-label="Käytä vaaleaa tilaa"
                     onClick={() => {
                       window.__setPreferredTheme('light');
                     }}
@@ -277,7 +277,7 @@ export default function TopNav({
                     href="https://github.com/facebook/react/releases"
                     target="_blank"
                     rel="noreferrer noopener"
-                    aria-label="Open on GitHub"
+                    aria-label="Avaa GitHubissa"
                     className="active:scale-95 transition-transform flex w-12 h-12 rounded-full items-center justify-center hover:bg-primary/5 hover:dark:bg-primary-dark/5 outline-link">
                     {githubIcon}
                   </Link>
@@ -304,20 +304,20 @@ export default function TopNav({
                 <Suspense fallback={null}>
                   <div className="pl-3 xs:pl-5 xs:gap-0.5 xs:text-base overflow-x-scroll flex flex-row lg:hidden text-base font-bold text-secondary dark:text-secondary-dark">
                     <NavItem isActive={section === 'learn'} url="/learn">
-                      Learn
+                      Opettele
                     </NavItem>
                     <NavItem
                       isActive={section === 'reference'}
                       url="/reference/react">
-                      Reference
+                      Viite
                     </NavItem>
                     <NavItem
                       isActive={section === 'community'}
                       url="/community">
-                      Community
+                      Yhteisö
                     </NavItem>
                     <NavItem isActive={section === 'blog'} url="/blog">
-                      Blog
+                      Blogi
                     </NavItem>
                   </div>
                   <div
